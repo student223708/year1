@@ -1,0 +1,11 @@
+height=float(input("Enter your height in cm: "))
+weight=float(input("Enter your weight in kg: "))
+
+if(weight/((height/100)*(height/100))<16):print("You have Underweight (Severe thinness)")
+elif(weight/((height/100)*(height/100))<17):print("You have Underweight (Moderate thinness)")
+elif(weight/((height/100)*(height/100))<18.5):print("You have Underweight (Mild thinness)")
+elif(weight/((height/100)*(height/100))<25):print("You have Normal weight")
+elif(weight/((height/100)*(height/100))<30):print("You have Overweight (Pre-obese)")
+elif(weight/((height/100)*(height/100))<35):print("You are Obese (Class I) ")
+elif(weight/((height/100)*(height/100))<40):print("You are Obese (Class II) ")
+else: print("You are Obese (Class III) ")

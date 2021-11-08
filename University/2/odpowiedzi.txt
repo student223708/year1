@@ -1,0 +1,17 @@
+6.
+a) 50 int
+b)149.17 float
+c)28 int
+d)28 float
+e)"University" string/char
+f)true bool
+g)false bool
+
+7.
+a)2 int
+b) 55 int
+c) 5 float
+d) 0 int
+e)11 int
+f) true bool
+
