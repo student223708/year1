@@ -1,0 +1,52 @@
+podstawy wyra¿eñ regularnych - podstawy (regular expressions)
+
+-wzorzec który pomaga w wyszukiwaniu danych
+
+pamiêæ:
+-operacyjna
+-masowa
+
+systemy plików
+
+s³ownik
+
+stosy i kolejki
+
+lista - w odró¿nieniu od tablicy, ma nieograniczon¹ wielkoœæ
+	i mo¿e przechowywaæ wszystkie typy danych naraz
+
+
+
+>>> person = {
+    "name": "Marek",
+    "surname": "Banach",
+    "age": 25,
+    "hobby": ["swimming","excursions"],
+    "married": True,
+    "phone":{"landline":"123444321","mobile":"777888999"}
+   }
+>>> person["name"]
+'Marek'
+>>> person["hobby"]
+['swimming', 'excursions']
+>>> person["surname"] = "Brzêczyszczykiewicz"
+>>> person["surname"] 
+'Brzêczyszczykiewicz'
+>>> person["married"] = !person["married"]
+  File "<pyshell>", line 1
+    person["married"] = !person["married"]
+                        ^
+SyntaxError: invalid syntax
+>>> person["married"] != person["married"]
+False
+>>> person["married"]
+True
+>>> person["gender"]="male"
+>>> person["gender"]
+'male'
+>>> person["hobby"].append("bicycle")
+>>> person["hobby"]
+['swimming', 'excursions', 'bicycle']
+>>> person["phone"]["workphone"]="123456789"
+>>> person["phone"]
+{'landline': '123444321', 'mobile': '777888999', 'workphone': '123456789'}
